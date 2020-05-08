@@ -13,7 +13,7 @@ import { setAuthUser } from '../actions/authUser'
 
 class Nav extends Component {
 
-  handleLogout = e => {
+  handleLogout = (e) => {
     e.preventDefault()
     this.props.setAuthUser(null)
   }
@@ -127,11 +127,8 @@ class Nav extends Component {
 function mapStateToProps({ users, authUser }) {
   return {
     authUser,
-    users
+    users,
   }
 }
 
-export default connect(
-  mapStateToProps,
-  { setAuthUser }
-)(Nav)
+export default connect(mapStateToProps,{ setAuthUser })(Nav)

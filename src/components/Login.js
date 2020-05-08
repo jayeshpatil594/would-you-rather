@@ -131,11 +131,6 @@ function mapStateToProps({ users }) {
   }
 }
 
-const ConnectedLoginForm = connect(
-  mapStateToProps,
-  { setAuthUser }
-)(LoginForm)
-
-
+const ConnectedLoginForm = connect(mapStateToProps,{ setAuthUser })(LoginForm)
 
 export default Login
