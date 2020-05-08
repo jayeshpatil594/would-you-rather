@@ -27,7 +27,7 @@ class Nav extends Component {
           <Menu.Item name="home" as={NavLink} to="/" exact icon='home'
           />
           <Menu.Item name="new poll" as={NavLink} to="/add" icon='add' />
-          <Menu.Item name="leader board" as={NavLink} to="/leaderboard" icon='users' />
+          <Menu.Item name="Leaderboard" as={NavLink} to="/leaderboard" icon='users' />
           <Menu.Menu position="right">
             <Menu.Item>
               <span>
@@ -79,7 +79,7 @@ class Nav extends Component {
                   <Menu.Item name="home" as={NavLink} to="/" exact icon='home' />
                   <Menu.Item name="new poll" as={NavLink} to="/add" icon='add' />
                   <Menu.Item
-                    name="leader board"
+                    name="Leaderboard"
                     as={NavLink}
                     to="/leaderboard" icon='users'
                   />
@@ -110,7 +110,7 @@ class Nav extends Component {
                   <Menu.Item name="home" as={NavLink} to="/" exact icon='home' />
                   <Menu.Item name="new poll" as={NavLink} to="/add" icon='add' />
                   <Menu.Item
-                    name="leader board"
+                    name="Leaderboard"
                     as={NavLink}
                     to="/leaderboard" icon='users'
                   />
