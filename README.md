@@ -1,3 +1,5 @@
+### Hosted Live : https://would-you-rather-app.netlify.app/
+
 This app was built as a project for the Udacity React Nanodegree Program. The purpose of the project is to demonstrate understanding of how Redux works in a React-based web app.
 
 The project uses [Node.js](https://nodejs.org/en/) and [Create React App](https://github.com/facebook/create-react-app).
